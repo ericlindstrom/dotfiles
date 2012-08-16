@@ -5,3 +5,5 @@ export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/usr/local/mysql/lib/"
 export PS1="[\u:\W]$ "
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
+alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
+alias server='open http://localhost:8080 && python -m SimpleHTTPServer 8080'
